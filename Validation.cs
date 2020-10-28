@@ -25,7 +25,7 @@ namespace UserRegistrationPattern
         /// <param name="args">The arguments.</param>
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To User Registration Validation");
+            Console.WriteLine("Welcome To User Registration Patterns Validation With Unit Test Cases");
         }
 
         /// <summary>Validates the name.</summary>
