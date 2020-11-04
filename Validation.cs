@@ -26,15 +26,18 @@ namespace UserRegistrationPattern
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome To User Registration Patterns Validation With Unit Test Cases");
-            ValidationReflection.ServiceInfo();
             Console.WriteLine("Enter User Name:");
             string name = Console.ReadLine();
+            ValidateName(name);
             Console.WriteLine("Enter User email:");
             string email = Console.ReadLine();
+            ValidateEmail(email);
             Console.WriteLine("Enter User phone number:");
             string phoneNumber = Console.ReadLine();
+            ValidatePhoneNumber(phoneNumber);
             Console.WriteLine("Enter User password");
             string password = Console.ReadLine();
+            ValidatePassword(password);
         }
 
         /// <summary>Validates the name.</summary>
